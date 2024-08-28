@@ -1,4 +1,4 @@
-/*terraform {
+terraform {
   backend "s3" {
     bucket         = "mews-baket15"
     region         = "us-east-1"
@@ -13,4 +13,4 @@
       source  = "hashicorp/aws"
     }
   }
-} */
+} 
